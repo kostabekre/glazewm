@@ -130,7 +130,7 @@ window_rules:
     match_process_name: "steam"
 
   - command: "move to workspace 5" 
-    match_process_name: "Thorium"
+    match_process_name: "SumatraPDF"
 
   # Telegram viewer glitches out https://github.com/glzr-io/glazewm/issues/567
   - command: "ignore" 
@@ -162,6 +162,10 @@ window_rules:
   - command: "set floating"
     match_process_name: "rider64"
     match_title: "/Push*/"
+  - command: "set floating"
+    match_process_name: "rider64"
+    match_title: "Generate"
+
 
   - command: "move to workspace 2"
     match_title: "/Thunderbird*/"
@@ -259,7 +263,7 @@ keybindings:
 
   # Change the focused window to be maximized / unmaximized.
   - command: "toggle maximized"
-    binding: "Alt+X"
+    binding: "Alt+F"
 
   # Minimize focused window.
   - command: "set minimized"
@@ -279,7 +283,7 @@ keybindings:
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec wt"
+  - command: "exec alacritty"
     binding: "Alt+Enter"
 
   # Focus the workspace that last had focus.
