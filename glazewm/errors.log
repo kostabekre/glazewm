@@ -1,0 +1,11 @@
+[2m2024-08-16T08:30:59.575485Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found unexpected end of stream at line 279 column 1, while scanning a quoted scalar at line 86 column 19
+[2m2024-08-16T08:31:28.696170Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found unexpected end of stream at line 279 column 1, while scanning a quoted scalar at line 86 column 19
+[2m2024-08-16T08:45:24.183820Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 109 column 15
+[2m2024-08-16T08:45:56.630592Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 110 column 15
+[2m2024-08-16T08:46:52.064621Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[6].commands: unrecognized subcommand
+ at line 125 column 15
+[2m2024-08-16T08:48:18.832336Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 96 column 5
+[2m2024-08-16T08:48:37.823743Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[0]: missing field `commands` at line 96 column 5
+[2m2024-08-16T09:03:24.642042Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
